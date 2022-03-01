@@ -16,18 +16,24 @@ function App() {
           🇺🇦 Save ukraine 🇺🇦
         </h1>
       </div>
-      <div className="p-9">
-        <p className="text-1xl text-center uppercase p-9">
+      <div className="p-16">
+        <p className="text-1xl text-center">
           Millions of people across the world want to support Ukraine with their
           donations, but transferring money to Ukraine can be confusing and
           difficult. Paypal does not operate in Ukraine, and many other systems
           familiar to Western users are either not available or charge high
-          fees. Portmone is a local Ukrainian payment provider that can accept
-          money from credit cards around the world. It is working with Ukrainian
+          fees.
+        </p>
+        <p className="text-1xl text-center mt-5">
+          Portmone is a local Ukrainian payment provider that can accept money
+          from credit cards around the world. It is working with Ukrainian
           charities and help organizations, making foreign donations easy - all
-          you need is your credit card. Below are the Portmone links for payment
-          to the accounts of the Ukrainian Armed Forces, Come Back Alive - an
-          army and veteran charity, and Red Cross Ukraine.
+          you need is your credit card.
+        </p>
+        <p className="text-1xl text-center mt-5">
+          Below are the Portmone links for payment to the accounts of the
+          Ukrainian Armed Forces, Come Back Alive - an army and veteran charity,
+          and Red Cross Ukraine.
         </p>
       </div>
       <div className="mt-5">
@@ -49,7 +55,7 @@ function App() {
             </ul>
           </div>
         </div>
-        <div className="flex justify-center p-40">
+        <div className="flex justify-center pt-20">
           <div className="mr-5">
             <div className="font-bold mb-2 text-center text-2xl">URL</div>
             <div className="pt-1 pb-1">
@@ -103,6 +109,17 @@ function App() {
               </h1>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center p-20 fixed bottom-0 left-0 right-0">
+          This page was created as assistance to donors outside of Ukraine by
+          Kyiv software developer
+          <a
+            className="ml-1 underline text-blue-600"
+            href="https://www.linkedin.com/in/nikita-t-9b32b294/"
+          >
+            Nik Tysiachnyi
+          </a>
+          , as part of an effort to help my country.
         </div>
       </div>
     </div>
